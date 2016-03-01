@@ -1,0 +1,110 @@
+	/********************
+	 * TODOs
+	 * 
+	 * ####################################################################################
+	 *  +++++++++++++++++++++++++++++++++++IMPORTANT+++++++++++++++++++++++++++++++++++++++
+	 * ####################################################################################
+	 * 
+	 * 
+
+	 Line of Sight - pixelperfekt
+	 
+	 Lighting rework
+
+	 
+	 fix rendering order, atm the player is always rendered first
+	  
+	 add a Mainmenue -> * GameStates/Renderstates
+	 
+	 MiniMap - buggy as fuck
+	 tile visibility - set each tile to true if rendered once, so it can be shown on the map
+	 
+	 Basic Hud
+	 
+	 
+	 
+	 the renderer schould be more like a camera -> get a target to follow on... like in 3d -> lerp...
+	 
+	 rework tiles and entity system
+	 
+	 Mapgenerator -> finish the wallgeneration
+	 
+	 *
+	  
+	 * 
+	 ######################################################################################
+	 * 
+	 * basic GUI - extra renderer? basics are done add some buttons, mouse
+	 * support, dragsupport.... - added buttons - added mouse
+	 * 
+	 * 
+	 * FONT rendering - done 90% need to add color(done), scaling(kindof done,
+	 * just added a smaller font version), line wraps etc add a small font 8x8
+	 * and make it scaleable; -> done kind off, but it isnt scaleable yet
+	 * 
+	 * Debug Class
+	 
+	 	lighting rework -> flashlight? soll abnehmen
+	 * 
+	 * Fullscreen
+	 
+	 	 * * Levelgeneration from file
+	 
+	 
+	 * basic AI - A* Pathfinding
+	    
+	 * 
+	 * 
+	 
+	 * 
+	 * Networking
+	 * 
+	 * make a dokumentation for the anaimator
+	 * 
+	 * 
+	 ****************************************************************/
+
+	/*********************
+ *	####################################################################################
+	 *  +++++++++++++++++++++++++++++++++++DONE+++++++++++++++++++++++++++++++++++++++
+	####################################################################################
+	 * 
+	 * * clean the Code up, split some classes, especially the SCENE!! -
+	 * gameobjects done scene should be next - make averything more like an
+	 * engine - create a test package, for a real game
+	 * 
+	 * Audio support - basic wav files can be loaded, played once and can be
+	 * looped
+	 * 
+	 * make a decision about rendering is the scene rendering everything? or is
+	 * every object rendering itself? every object renders itself!!
+	 * 
+	 * create classes for all tiletypes + new sprites
+	 * 
+	 * Entity system rework - done again - every Gameobject gan now store an
+	 * endless amount of other child gameobjects
+	 * 
+	 * tile rendering scene got a tile array now, every TileType needs a new
+	 * class
+	 * 
+	 * * //TODO find a god way to position colliders and move them properly +
+	 * make the collider be the main position giver for an entity -> * created a
+	 * bounds class
+	 * 
+	 * 
+	 * * Thoughts about lightning.. pixelperfekt? currently we got tileperfekt
+	 * lightning implemented, light can be a byte array? nope it doesnt.. think
+	 * the "minecraft" approach is the best and easiest, and it should fit quite
+	 * nice in this game lightbitmaps -> check this!!!!! light implemented,
+	 * works now pixelperfekt... but atm theres no variation in color or density
+	 *
+	 *
+	 * animated sprites -> animator class? - DONE!
+	 *
+	 * Mouse implemented
+	 
+	  * Day/Night Cycle + Math Time Class
+	  
+	  	 * * add a basic NPC-class for testing purpose - colliders, interaction etca
+	 *
+	 *************************/
